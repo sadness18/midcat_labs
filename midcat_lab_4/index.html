@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <title>web_lab_4</title>
+</head>
+<body>
+    <main>
+        <div id = "top_side"> <!-- top_side div -->
+            <div id = "condition"> <!-- condition div -->
+                Вариант №7 <br /><br />
+                7. Y = 2*a*x<sup>3</sup> - 4*a*x<sup>2</sup> + 0.5 <br /><br />
+                a = 7 <br />
+                Y = 14x<sup>3</sup> - 28x<sup>2</sup> + 0.5
+            </div>
+            <div id = "input_div"> <!-- form, error and interval div -->
+                <form id = "main_form" method = "post">
+                    <label for = "input_num">Введите верхнюю границу интервала: </label>
+                    <input type = "text" placeholder = "от 1 до 10" maxlength = "2" name = "input_num" id = "input_num">
+                    <input type = "submit" disabled name = "sub_btn" id = "sub_btn" value = "Рассчитать">
+                </form>
+                <div id = "err_div"></div> <!-- error div -->
+                <div id = "interval_div"> <!-- inerval div -->
+                    Интервал:
+                </div>
+            </div>
+        </div>
+        <div id = "result_div"></div> <!-- result div -->
+    </main>
+
+    <script src = "script.js"></script>
+</body>
+</html>

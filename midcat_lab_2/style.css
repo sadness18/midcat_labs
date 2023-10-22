@@ -1,0 +1,288 @@
+*
+{
+    font-family: Roboto;
+    /*Verdana, Arial, Helvetica, sans-serif*/
+}
+
+/* --- top1 --- */
+
+.top1_menu_btn
+{
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #E5383B;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.top1_menu_btn:hover
+{
+    background-color: #d63335;
+}
+
+.top1_menu_btn:active
+{
+    background-color: #c22e30;
+}
+
+#top1_body
+{
+    background-color: #E5383B;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 15px;
+}
+
+#top1_main_div
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#top1_address_div
+{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#top1_menu_buttons
+{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+/* --- top2 --- */
+
+#top2_body
+{
+    background-color: #D9D9D9;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 15px;
+}
+
+#top2_main_div
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#top2_logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#top2_search
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#top2_search form
+{
+    border: 2px solid #9B9A9A;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#top2_search input
+{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: transparent;
+    width: 40vw;
+    height: 35px;
+    padding-left: 10px;
+}
+
+#top2_search button
+{
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 35px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#top2_search button:before
+{
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 25px;
+    color: black;
+}
+
+/* --- left_sidebar --- */
+
+#left_body
+{
+    background-color: #D9D9D9;
+    margin-left: 15px;
+}
+
+#left_main_div
+{
+    position: relative;
+    display: inline-block;
+    
+}
+
+#left_dropdown_btn
+{
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    color: #E5383B;
+}
+
+#left_dropdown_content
+{
+    display: none;
+    position: absolute;
+    min-width: 300px;
+    z-index: 1;
+}
+
+#left_dropdown_content a
+{
+    color: #E5383B;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 28px;
+    padding-top: 10px;
+}
+
+#left_dropdown_content a:after
+{
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #E5383B;
+    transition: width 0.4s ease-in-out;
+}
+
+#left_dropdown_content a:hover:after,
+#left_dropdown_content a:focus:after
+{
+    width: 100%;
+}
+
+#left_main_div:hover #left_dropdown_content
+{
+    display: block;
+}
+
+#left_main_div:hover #left_dropdown_btn
+{
+    color: #A81A1D;
+}
+
+/* --- mid --- */
+
+#mid_body
+{
+    background-color: #D9D9D9;
+}
+
+#mid_main_div
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.mid_category
+{
+    padding: 15px;
+}
+
+.mid_category img
+{
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+    -webkit-filter: brightness(100%);
+}
+
+.mid_category img:hover
+{
+    box-shadow: 0 0 10px #444;
+    -webkit-filter: brightness(85%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.mid_category_title
+{
+    margin-bottom: 10px;
+}
+
+.mid_category_link
+{
+    color: #727272;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.mid_category_link:hover
+{
+    text-decoration: underline;
+}
+
+.mid_category_count
+{
+    font-size: 12px;
+    color: #3C3C3C;
+}
+
+/* --- footer --- */
+
+#bot_body
+{
+    background-color: #bbbbbb;
+    margin: 0px;
+}
+
+#bot_main_div
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#bot_main_div h2
+{
+    color: #5c5c5c;
+}

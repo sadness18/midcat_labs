@@ -1,0 +1,96 @@
+*
+{
+    font-family: Roboto;
+}
+
+/* --- top ---*/
+
+#top_body
+{
+    background-color: gray;
+}
+
+#top_main_div a
+{
+    margin-right: 10px;
+    color: violet;
+}
+
+#top_main_div a:hover
+{
+    color: black;
+}
+
+/* --- menu --- */
+
+#menu_body
+{
+    background-color: yellow;
+    margin: 0px;
+}
+
+#menu_main_div
+{
+    padding: 20px;
+}
+
+#menu_main_div a
+{
+    margin-right: 10px;
+    color: black;
+}
+
+#menu_main_div a:hover
+{
+    color: brown;
+}
+
+#menu_main_div button, input
+{
+    margin-top: 15px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+    border-radius: 10px;
+}
+
+#menu_main_div button
+{
+    background-color: rgb(105, 255, 205);
+    border: 2px dashed rgb(69, 199, 155);
+}
+
+#menu_main_div input
+{
+    background-color: rgb(105, 225, 255);
+    border: 2px dashed rgb(69, 151, 199);
+}
+
+#menu_main_div button:hover, input:hover
+{
+    box-shadow: 0 0 10px #444;
+}
+
+#menu_main_div button:active
+{
+    background-color: rgb(92, 230, 184);
+}
+
+#menu_main_div input:active
+{
+    background-color: rgb(88, 194, 221);
+}
+
+/* --- content --- */
+
+#content_main_div
+{
+    color: blue;
+    font-size: 18px;
+}
+
+#content_main_div:hover
+{
+    color: brown;
+}

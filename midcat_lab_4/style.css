@@ -1,0 +1,35 @@
+*
+{
+    font-family: Roboto;
+}
+
+#top_side
+{
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+#condition
+{
+    border: 1px solid black;
+}
+
+#condition, #input_div, #result_div
+{
+    padding: 20px;
+}
+
+#input_num
+{
+    width: 70px;
+}
+
+#err_div
+{
+    color: rgb(255, 50, 50);
+}
+
+#interval_div
+{
+    padding-top: 20px;
+}
